@@ -118,7 +118,14 @@
                                 org.w3c.dom.xpath,
                                 org.xml.sax,
                                 org.xml.sax.ext,
-                                org.xml.sax.helpers
+                                org.xml.sax.helpers,
+                                com.sun.mirror.apt,
+								com.sun.mirror.declaration,
+								com.sun.mirror.type,
+								com.sun.mirror.util,
+								sun.nio.cs,
+								com.sun.xml.internal,
+								com.sun.xml.internal.bind,
                             </Export-Package>
                         </manifestEntries>
                     </archive>
