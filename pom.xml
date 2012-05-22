@@ -26,7 +26,7 @@
       <version>1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>org.liveSense.fragment.xml-jre-1.6</artifactId>
+    <artifactId>org.liveSense.fragment.javax.xml-jre-1.6</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
