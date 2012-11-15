@@ -70,15 +70,10 @@
                         <manifestFile>
                             ${project.build.outputDirectory}/META-INF/MANIFEST.MF
                         </manifestFile>
+
                         <manifestEntries>
                             <Export-Package>
                                 javax.xml,
-                                javax.xml.bind,
-                                javax.xml.bind.annotation,
-                                javax.xml.bind.annotation.adapters,
-                                javax.xml.bind.attachment,
-                                javax.xml.bind.helpers,
-                                javax.xml.bind.util,
                                 javax.xml.crypto,
                                 javax.xml.crypto.dom,
                                 javax.xml.crypto.dsig,
@@ -88,23 +83,15 @@
                                 javax.xml.datatype,
                                 javax.xml.namespace,
                                 javax.xml.parsers,
-                                javax.xml.soap,
-                                javax.xml.stream,
-                                javax.xml.stream.events,
-                                javax.xml.stream.util,
+                                javax.xml.stream;version=1.0,
+                                javax.xml.stream.events;version=1.0,
+                                javax.xml.stream.util;version=1.0,
                                 javax.xml.transform,
                                 javax.xml.transform.dom,
                                 javax.xml.transform.sax,
                                 javax.xml.transform.stax,
                                 javax.xml.transform.stream,
                                 javax.xml.validation,
-                                javax.xml.ws,
-                                javax.xml.ws.handler,
-                                javax.xml.ws.handler.soap,
-                                javax.xml.ws.http,
-                                javax.xml.ws.soap,
-                                javax.xml.ws.spi,
-                                javax.xml.ws.wsaddressing,
                                 javax.xml.xpath,
                                 org.w3c.dom,
                                 org.w3c.dom.bootstrap,
@@ -125,8 +112,7 @@
 								com.sun.mirror.type,
 								com.sun.mirror.util,
 								sun.nio.cs,
-								com.sun.xml.internal.bind,
-                                com.sun.xml.internal.bind.v2
+                                com.sun.msv.datatype
                             </Export-Package>
                         </manifestEntries>
                     </archive>
