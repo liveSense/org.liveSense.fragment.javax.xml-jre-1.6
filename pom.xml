@@ -26,6 +26,11 @@
       <version>2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
     </parent>
+	<scm>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.fragment.javax.xml-jre-1.6.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.fragment.javax.xml-jre-1.6.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.fragment.javax.xml-jre-1.6</url>
+	</scm>
 
     <artifactId>org.liveSense.fragment.javax.xml-jre-1.6</artifactId>
     <version>1.0.0-SNAPSHOT</version>
