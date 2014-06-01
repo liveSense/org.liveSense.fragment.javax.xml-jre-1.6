@@ -114,10 +114,10 @@
                                 org.xml.sax.ext,
                                 org.xml.sax.helpers,
                                 com.sun.mirror.apt,
-								com.sun.mirror.declaration,
-								com.sun.mirror.type,
-								com.sun.mirror.util,
-								sun.nio.cs,
+                                com.sun.mirror.declaration,
+                                com.sun.mirror.type,
+                                com.sun.mirror.util,
+                                sun.nio.cs,
                                 com.sun.msv.datatype
                             </Export-Package>
                         </manifestEntries>
